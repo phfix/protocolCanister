@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file defines the spread for direct connection to Connector 33-64
+-->
+<Spread>
+  <Name> Can_8x4_33-64 </Name>
+  <Description> The ABEM Multichannel adapter connected to the Electrode 33-64 connector switch, adapted for use with the Canister_4x4_Circles_ASSERT, Canister_4x4+2_Circles_ASSERT, Canister_2x2_Concentric_ASSERT and Canister_2x2+2_Concentric_ASSERT protocols. Intended for use with the ASSERT project soil canister. /Mikael Lumetzberger </Description>
+  <Cable>
+    <Name> 8x4 Octopus ASSERT Canister Holder </Name>
+    
+    <Electrode>
+      <Id> 1 </Id>
+      <X> 1 </X>
+      <Name> TopW </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 33 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 2 </Id>
+      <X> 2 </X>
+      <Name> TopN </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 34 </SwitchAddress>
+    </Electrode>
+    
+    <Electrode>
+      <Id> 3 </Id>
+      <X> 3 </X>
+      <Name> TopE </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 35 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 4 </Id>
+      <X> 4 </X>
+      <Name> TopS </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 36 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 5 </Id>
+      <X> 5 </X>
+      <Name> BotW </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 37 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 6 </Id>
+      <Name> BotN </Name>
+      <X> 6 </X>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 38 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 7 </Id>
+      <X> 7 </X>
+      <Name> BotE </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 39 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 8 </Id>
+      <X> 8 </X>
+      <Name> BotS </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 40 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 9 </Id>
+      <X> 9 </X>
+      <Name> CylUpper </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 1 </SwitchAddress>
+    </Electrode>
+
+    <Electrode>
+      <Id> 10 </Id>
+      <X> 10 </X>
+      <Name> CylLower </Name>
+      <SwitchId> 1 </SwitchId>
+      <SwitchAddress> 2 </SwitchAddress>
+    </Electrode>
+</Cable>
+</Spread>

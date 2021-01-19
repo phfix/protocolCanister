@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Protocol>
+    <Name> PH_protocolCanister_4x4_Quad_ASSERT </Name>
+    <Description> Protocol for ASSERT soil canister cylinder prototypes with four electrodes in upper lid and four electrodes in lower lid. One electrode each is placed in the W, N, E and S part of each (circular) lid. Intended for use with a customized MCA Conn switch spread. /Mikael Lumetzberger.
+Protokollet jag gjorde har alla som jag tror vettiga mätningar i sig inklusive många reciproca mätningar allt på 19 measures (Antal Measure's). Totalt 72 abmn kombinationer och då är mittenelektroderna med också
+Jag har inte testat filen annat än att min xml editor inte skriker. /Per Hedblom
+Har städat en del formatproblem i filen (konstigt filformat från excel?, samt stora X till små x mm..) /Mikael L
+    </Description>
+    <Arraycode>  12  </Arraycode>
+    <SpreadFile> spreadCanister_ASSERT.xml </SpreadFile>
+    <SpreadFile> spreadCanister_ASSERT_MCA.xml </SpreadFile>
+    <Sequence>
+
+        <Measure>            <!-- Dipoler i korken -->
+            <Tx> 1 2 </Tx>
+            <Rx> 4 3 <Note> I korken nära </Note>
+            </Rx>
+            <Rx> 5 6 <Note> I korken andra sidan </Note>
+            </Rx>
+            <Rx> 7 8 <Note> I korken andra sidan </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 2 1 <Note> I korken nära </Note>
+            </Rx>
+            <Tx> 3 4 </Tx>
+            <Rx> 5 6 <Note> I korken andra sidan </Note>
+            </Rx>
+            <Rx> 7 8 <Note> I korken andra sidan </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 2 <Note> I korken andra sidan </Note>
+            </Rx>
+            <Rx> 3 4 <Note> I korken andra sidan </Note>
+            </Rx>
+            <Tx> 5 6 </Tx>
+            <Rx> 8 7 <Note> I korken nära </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 2 <Note> I korken andra sidan </Note>
+            </Rx>
+            <Rx> 3 4 <Note> I korken andra sidan </Note>
+            </Rx>
+            <Rx> 6 5 <Note> I korken nära </Note>
+            </Rx>
+            <Tx> 7 8 </Tx>
+        </Measure>
+
+
+
+
+        <Measure>            <!-- Mellan korkarna rakt -->
+            <Tx> 1 5 </Tx>
+            <Rx> 2 6 <Note> G1 </Note>
+            </Rx>
+            <Rx> 3 7 <Note> G2 </Note>
+            </Rx>
+            <Rx> 4 8 <Note> G1 </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Gmellan </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 5 <Note> G1 </Note>
+            </Rx>
+            <Tx> 2 6 </Tx>
+            <Rx> 3 7 <Note> G1 </Note>
+            </Rx>
+            <Rx> 4 8 <Note> G2 </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Gmellan </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 5 <Note> G2 </Note>
+            </Rx>
+            <Rx> 2 6 <Note> G1 </Note>
+            </Rx>
+            <Tx> 3 7 </Tx>
+            <Rx> 4 8 <Note> G1 </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Gmellan </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 5 <Note> G1 </Note>
+            </Rx>
+            <Rx> 2 6 <Note> G2 </Note>
+            </Rx>
+            <Rx> 3 7 <Note> G1 </Note>
+            </Rx>
+            <Tx> 4 8 </Tx>
+            <Rx> 9 10 <Note> Gmellan </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 5 <Note> G3 </Note>
+            </Rx>
+            <Rx> 2 6 <Note> G3 </Note>
+            </Rx>
+            <Rx> 3 7 <Note> G3 </Note>
+            </Rx>
+            <Rx> 4 8 <Note> G3 </Note>
+            </Rx>
+            <Tx> 9 10 </Tx>
+        </Measure>
+
+
+        <Measure>            <!-- Mellan korkarna vridna 1 steg -->
+            <Tx> 1 8 </Tx>
+            <Rx> 2 5 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 3 6 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 4 7 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 8 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Tx> 2 5 </Tx>
+            <Rx> 3 6 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 4 7 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 8 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 2 5 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Tx> 3 6 </Tx>
+            <Rx> 4 7 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 8 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 2 5 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 3 6 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Tx> 4 7 </Tx>
+            <Rx> 9 10 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 8 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 2 5 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 3 6 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Rx> 4 7 <Note> Mellan korkarna vridna 1 steg </Note>
+            </Rx>
+            <Tx> 9 10 </Tx>
+        </Measure>
+
+
+
+        <Measure>            <!-- Mellan korkarna vridet 2 steg -->
+            <Tx> 1 7 </Tx>
+            <Rx> 2 8 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 3 5 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 4 6 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 7 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Tx> 2 8 </Tx>
+            <Rx> 3 5 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 4 6 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 7 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 2 8 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Tx> 3 5 </Tx>
+            <Rx> 4 6 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 9 10 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 7 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 2 8 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 3 5 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Tx> 4 6 </Tx>
+            <Rx> 9 10 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+        </Measure>
+        <Measure>            <!-- 0 -->
+            <Rx> 1 7 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 2 8 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 3 5 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Rx> 4 6 <Note> Mellan korkarna vridet 2 steg </Note>
+            </Rx>
+            <Tx> 9 10 </Tx>
+        </Measure>
+
+        <Measure>            <!-- Mellan korkarna rakt -->
+            <Tx> 1 5 </Tx>
+            <Rx> 9 10 <Note> Gmellan </Note>
+                <Channel> all </Channel>
+            </Rx>
+            <ExtraSetup>
+                <!-- Connect C1 to  2,3,4 	  -->
+                <!-- 1 33 = board 2 relay 1-->
+                <!-- 2 34 = board 2 relay 2-->
+                <!-- 3 35 = board 2 relay 3-->
+                <!-- 4 36 = board 2 relay 4-->
+                <SwitchDevice> 1 2 2 0 1  </SwitchDevice>
+                <SwitchDevice> 1 2 3 0 1  </SwitchDevice>
+                <SwitchDevice> 1 2 4 0 1  </SwitchDevice>
+
+                <!-- Connect C2 to  6,7,8 	  -->
+                <!-- 1 37 = board 2 relay 5-->
+                <!-- 2 38 = board 2 relay 6-->
+                <!-- 3 39 = board 2 relay 7-->
+                <!-- 4 40 = board 2 relay 8-->
+                <SwitchDevice> 1 2 6 1 1  </SwitchDevice>
+                <SwitchDevice> 1 2 7 1 1  </SwitchDevice>
+                <SwitchDevice> 1 2 8 1 1  </SwitchDevice>
+            </ExtraSetup>
+        </Measure>
+    </Sequence>
+</Protocol>
