@@ -5,6 +5,7 @@
 Protokollet jag gjorde har alla som jag tror vettiga mätningar i sig inklusive många reciproca mätningar allt på 19 measures (Antal Measure's). Totalt 72 abmn kombinationer och då är mittenelektroderna med också
 Jag har inte testat filen annat än att min xml editor inte skriker. /Per Hedblom
 Har städat en del formatproblem i filen (konstigt filformat från excel?, samt stora X till små x mm..) /Mikael L
+Uppdaterat med ytterligare en mätning på mittenelektroderna med alla top som c1 och alla bottom som c2./Per
     </Description>
     <Arraycode>  12  </Arraycode>
     <SpreadFile> spreadCanister_ASSERT.xml </SpreadFile>
